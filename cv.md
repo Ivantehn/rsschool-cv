@@ -32,7 +32,8 @@ ___
 
 ### Code examples
 
-```function findMissing(arr1, arr2) {
+```code
+function findMissing(arr1, arr2) {
   arr1.sort(); 
   arr2.sort();
   for (var i = 0; i < arr1.length; i++)
